@@ -1,0 +1,102 @@
+{
+ "properties": {
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "8b9474c3-d16a-45c2-8d15-6e7ef82deb45",
+   "createdOn": "2021-03-24T18:39:37.0915521Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "NIST 001.1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9297c21d-2ed6-4474-b48f-163f75654ce3",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Activity log should be retained for at least one year_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b02aacc0-b073-424e-8298-42b22829ee0a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure subscriptions should have a log profile for Activity Log_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7796937f-307b-4598-941c-67d3a05ebfe7",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Monitor log profile should collect logs for categories 'write,' 'delete,' and 'action'_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1a4e592a-6a6e-44a5-9814-e36264ca96e7",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Monitor should collect activity logs from all regions_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/41388f1c-2db0-4c25-95b2-35d7f5ccbfa9",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should restrict network access_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/34c877ad-507e-4c82-993e-3452a6e0ad3c",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should use customer-managed key for encryption_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6fac406b-40ca-413b-bf8e-0bf964659c25",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Resource logs in Key Vault should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cf820ca0-f99e-4f3e-84fb-66e913812d21",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "RDP access from the Internet should be blocked_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e372f825-a257-4fb8-9175-797a8a8627d6",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SSH access from the Internet should be blocked_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2c89a2e5-7285-40fe-afe0-ae8654b92fab",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Public network access on Azure SQL Database should be disabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1b8ca024-1d5c-4dec-8995-b1a932b41780",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "An activity log alert should exist for specific Security operations_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/3b980d31-7904-4bb7-8575-5665739a8052",
+    "parameters": {
+     "operationName": {
+      "value": "Microsoft.Security/policies/write"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "An activity log alert should exist for specific Administrative operations_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b954148f-4c11-4c38-8221-be76711e194a",
+    "parameters": {
+     "operationName": {
+      "value": "Microsoft.Network/networkSecurityGroups/delete"
+     }
+    },
+    "groupNames": []
+   }
+  ]
+ },
+ "id": "/subscriptions/4bef2eee-a18a-470a-ad32-6e0b8a68d2fa/providers/Microsoft.Authorization/policySetDefinitions/testinit",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "testinit"
+}
