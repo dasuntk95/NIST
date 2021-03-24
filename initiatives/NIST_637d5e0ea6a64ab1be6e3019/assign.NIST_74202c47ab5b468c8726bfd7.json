@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "NIST",
+  "policyDefinitionId": "/subscriptions/4bef2eee-a18a-470a-ad32-6e0b8a68d2fa/providers/Microsoft.Authorization/policySetDefinitions/637d5e0ea6a64ab1be6e3019",
+  "scope": "/subscriptions/4bef2eee-a18a-470a-ad32-6e0b8a68d2fa",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Dasun Thiwanka",
+   "parameterScopes": {},
+   "createdBy": "8b9474c3-d16a-45c2-8d15-6e7ef82deb45",
+   "createdOn": "2021-03-01T16:11:54.4607795Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/4bef2eee-a18a-470a-ad32-6e0b8a68d2fa/providers/Microsoft.Authorization/policyAssignments/74202c47ab5b468c8726bfd7",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "74202c47ab5b468c8726bfd7"
+}
